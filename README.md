@@ -1,7 +1,6 @@
 # Graph Algorithms - Design and Analysis of Algorithms Project
 
-This project was developed as part of the **CS-2009 Design and Analysis of Algorithms (Spring 2025)** course at **FAST-NUCES, Islamabad**.  
-It implements and analyzes various **graph algorithms** with detailed performance evaluation on large-scale real-world datasets.
+This project implements and analyzes various **graph algorithms** with detailed performance evaluation on large-scale real-world datasets.
 
 ---
 
@@ -104,15 +103,6 @@ python BFS.py
 /traces/ (detailed steps)
 
 /plots/ (visualizations)
-
-
-## 👥 Contributors
-
-Abdullah Daoud (22I-2626) – BFS, DFS, Cycle Detection
-
-Usman Ali (22I-2725) – Dijkstra, Bellman-Ford, Diameter
-
-Faizan Rasheed (22I-2734) – Prim’s, Kruskal’s, Average Degree
 
 
 ## 📝 License
