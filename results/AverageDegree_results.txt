@@ -1,0 +1,10 @@
+Average Degree Results
+==================================================
+
+Total nodes: 1000
+Total edges: 999
+Average degree: 2.00
+Minimum degree: 1
+Maximum degree: 4
+Median degree: 2.0
+Degree distribution: {1: 377, 4: 42, 2: 290, 3: 291}

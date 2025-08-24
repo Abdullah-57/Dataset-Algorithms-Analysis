@@ -1,0 +1,23 @@
+Cycle Detection (DFS) Trace
+==================================================
+
+Cycle Detection using DFS
+Starting DFS from unvisited vertex: 183286
+Visit: 183286, RecStack: [183286]
+  Checking neighbor 185387
+  Set parent[185387] = 183286
+Visit: 185387, RecStack: [185387, 183286]
+  Checking neighbor 183286
+  Checking neighbor 184758
+  Set parent[184758] = 185387
+Visit: 184758, RecStack: [185387, 184758, 183286]
+  Checking neighbor 184759
+  Set parent[184759] = 184758
+Visit: 184759, RecStack: [185387, 184758, 183286, 184759]
+  Checking neighbor 184758
+  Checking neighbor 184824
+  Set parent[184824] = 184759
+Visit: 184824, RecStack: [184759, 185387, 184758, 183286, 184824]
+  Checking neighbor 184758
+  Cycle detected, set parent[184758] = 184824
+Cycle found: 184758 -> 184759 -> 184824 -> 184758
