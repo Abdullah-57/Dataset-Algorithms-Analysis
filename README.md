@@ -104,6 +104,13 @@ python BFS.py
 
 /plots/ (visualizations)
 
+## 👥 Contributors
+
+Abdullah Daoud (22I-2626) – BFS, DFS, Cycle Detection
+
+Usman Ali (22I-2725) – Dijkstra, Bellman-Ford, Diameter
+
+Faizan Rasheed (22I-2734) – Prim’s, Kruskal’s, Average Degree
 
 ## 📝 License
 This project is developed for academic purposes under the FAST-NUCES SE Department.
