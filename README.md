@@ -95,6 +95,7 @@ bashpython Dijkstra.py
 python BFS.py
 
 ```
+---
 
 ## Check outputs in:
 
@@ -104,14 +105,17 @@ python BFS.py
 
 /plots/ (visualizations)
 
-## 👥 Contributors
+---
 
-Abdullah Daoud (22I-2626) – BFS, DFS, Cycle Detection
+## 👨‍💻 Contributors
+- **Abdullah Daoud (22I-2626)**  
+- **Usman Ali (22I-2725)**  
+- **Faizan Rasheed (22I-2734)**
 
-Usman Ali (22I-2725) – Dijkstra, Bellman-Ford, Diameter
-
-Faizan Rasheed (22I-2734) – Prim’s, Kruskal’s, Average Degree
+---
 
 ## 📝 License
 This project is developed for academic purposes under the FAST-NUCES SE Department.
 You may use and adapt it for learning and research purposes with proper credit.
+
+---
