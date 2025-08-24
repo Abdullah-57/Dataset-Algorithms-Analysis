@@ -1,110 +1,120 @@
-MONDAY
+# Graph Algorithms - Design and Analysis of Algorithms Project
 
-**IICT CS-E 2025 --**
+This project was developed as part of the **CS-2009 Design and Analysis of Algorithms (Spring 2025)** course at **FAST-NUCES, Islamabad**.  
+It implements and analyzes various **graph algorithms** with detailed performance evaluation on large-scale real-world datasets.
 
-**IICT CS-F 2025 --**
+---
 
-**IICT AI-A 2025 --**
+## 📚 Algorithms Implemented
+- **Single Source Shortest Path**
+  - Dijkstra’s Algorithm
+  - Bellman-Ford Algorithm
+- **Minimum Spanning Tree**
+  - Prim’s Algorithm
+  - Kruskal’s Algorithm
+- **Graph Traversal**
+  - Breadth-First Search (BFS)
+  - Depth-First Search (DFS)
+- **Other Graph Metrics**
+  - Graph Diameter (Longest Shortest Path)
+  - Cycle Detection
+  - Average Degree Calculation
 
-**IICT AI-B 2025 --**
+---
 
-**IICT CY-B 2025 --**
+## ⚙️ Implementation Details
+- **Language:** Python 3.9  
+- **Libraries Used:** 
+  - [NetworkX](https://networkx.org/) (graph representation & manipulation)  
+  - [Matplotlib](https://matplotlib.org/) (visualization & plotting)  
+- **Dataset:** [roadNet-TX](http://snap.stanford.edu/data/roadNet-TX.html) from Stanford SNAP  
+  - ~1.37M nodes  
+  - ~1.92M edges  
+  - Undirected, sparse real-world road network  
 
-**PF CS-G 2025 --**
+Each algorithm saves:
+- Results in `/results/`
+- Execution traces in `/traces/`
+- Visualizations in `/plots/`
 
-**PF CY-B 2025 --**
+Execution times were measured using Python’s `time` module for accuracy.
 
-**DB CY-B 2023 --**
+---
 
-**OS SE-A 2022 --**
+## 📊 Performance Analysis
+Algorithms were tested on sampled subgraphs of **1000, 2000, 3000, and 5000 nodes**.  
 
-**DB AI/DS 2023 --**
+- **Fastest:** Cycle Detection (~0.001s) & Average Degree (~0.015s)  
+- **Moderate:** Dijkstra (~1.09s), Bellman-Ford (~0.034s)  
+- **Heavy:** BFS, DFS, Diameter (>100s at 5000 nodes)  
+- **MST Algorithms:** Prim’s (~99s) and Kruskal’s (~98s)  
 
-**CNET CS-C 2023 --**
+Visual comparisons:
+- **Bar Chart:** Execution times at 5000 nodes  
+- **Line Graph:** Scaling performance across input sizes  
 
-**CNET CY-23 --**
+---
 
+## 📁 Project Structure (WIP)
 
+```bash
+├── results/            # Algorithm results (paths, MSTs, cycles, etc.)
+├── traces/             # Execution traces of operations
+├── plots/              # Visualizations (MSTs, traversals, performance charts)
+├── Dijkstra.py
+├── BellmanFord.py
+├── Prims.py
+├── Kruskals.py
+├── BFS.py
+├── DFS.py
+├── Diameter.py
+├── CycleDetection.py
+├── AverageDegree.py
+└── README.md
 
+```
 
+## 🚀 How to Run
+   ```bash
+   
+   git clone https://github.com/Abdullah-57/graph-algorithms-analysis.git
+   cd graph-algorithms-analysis
 
-TUESDAY
+```
 
------ UNCONFIRMED FUE TO PPIT SEMINAR------
+## Install required libraries:
+ ```bash
 
-**PF CS-D 2025 --**
+  bashpip install networkx matplotlib
 
-**PF SE-C 2025 --**
+```
 
-**IICT DS-B 2025 --**
+## Run any algorithm:
+ ```bash
 
-**CNET CS-E 2023 --**
+bashpython Dijkstra.py
+python BFS.py
 
-**OS DS-A 2023 --**
+```
 
------ UNCONFIRMED FUE TO PPIT SEMINAR------
+## Check outputs in:
 
-**IICT CS-B 2025 --**
+/results/ (algorithm outputs)
 
-**IICT AI-C 2025 --**
+/traces/ (detailed steps)
 
-**PF DS-B 2025 --**
-
-**PF CY-C 2025 --**
-
-**OS CY-A 2022 --**
-
-
-
-WEDNESDAY
-
-**PF CS-E 2025 --**
-
-**PF AI-A 2025 --**
-
-**PF SE-B 2025 --**
-
-**IICT CS-G 2025 --**
-
-**IICT CY-A 2025 --**
-
-**IICT CS-H 2025 --**
-
-**IICT SE-A 2025 --**
-
-**CNET CS-D 2023 --**
-
-**OS CY-B 2023 --**
-
-**OS AI-B 2023 --**
-
-**DB CY-A 2023 --**
-
-**OOP SE-A REPEAT --**
-
-**OOP AI-B REPEAT --**
-
-
-
-THURSDAY
-
-**PF CS-B 2025 --**
-
-**PF AI-C 2025 --**
-
-**PF SE-D 2025 --**
-
-**CNET CS-F 2023 --**
-
-**CNET DS-D 2022 --**
-
-**IICT CS-D 2025 --**
-
-**IICT SE-D 2025 --**
-
-**OS CY-B 2022 --**
-
-
-
+/plots/ (visualizations)
 
 
+## 👥 Contributors
+
+Abdullah Daoud (22I-2626) – BFS, DFS, Cycle Detection
+
+Usman Ali (22I-2725) – Dijkstra, Bellman-Ford, Diameter
+
+Faizan Rasheed (22I-2734) – Prim’s, Kruskal’s, Average Degree
+
+
+## 📝 License
+This project is developed for academic purposes under the FAST-NUCES SE Department.
+You may use and adapt it for learning and research purposes with proper credit.
