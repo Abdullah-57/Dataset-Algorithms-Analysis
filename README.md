@@ -107,6 +107,7 @@ python BFS.py
 
 ---
 
+
 ## 👨‍💻 Contributors
 - **Abdullah Daoud (22I-2626)**  
 - **Usman Ali (22I-2725)**  
@@ -114,8 +115,8 @@ python BFS.py
 
 ---
 
-## 📝 License
-This project is developed for academic purposes under the FAST-NUCES SE Department.
-You may use and adapt it for learning and research purposes with proper credit.
+## ⚖️ License
+This project is for **academic and personal skill development purposes only**.  
+Reuse is allowed for **learning and research** with proper credit.
 
 ---
